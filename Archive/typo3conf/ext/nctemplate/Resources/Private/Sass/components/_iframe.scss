@@ -1,0 +1,8 @@
+iframe {
+    @include make-sm-column(12);
+    padding-left: $layout-container-padding-left;
+
+    @media (max-width: $screen-sm-min) {
+        padding: 0;
+    }
+}

@@ -1,0 +1,34 @@
+// Mixins that are used throughout the project
+@mixin right-collapse($speed) {
+    height: auto;
+    -webkit-transition: width $speed ease;
+    -moz-transition: width $speed ease;
+    -o-transition: width $speed ease;
+    transition: width $speed ease;
+}
+
+@mixin fadeout() {
+    opacity: 0;
+    -moz-transition: opacity 0.5s ease-in-out;
+    -o-transition: opacity 0.5s ease-in-out;
+    -webkit-transition: opacity 0.5s ease-in-out;
+    transition: opacity 0.5s ease-in-out;
+}
+@mixin fadein() {
+    @include fadeout();
+    opacity: 1;
+}
+
+@mixin margin($top, $right, $bottom, $left) {
+    margin-top: $top!important;
+    margin-right: $right!important;
+    margin-bottom: $bottom!important;
+    margin-left: $left!important;
+}
+
+@mixin padding($top, $right, $bottom, $left) {
+    padding-top: $top!important;
+    padding-right: $right!important;
+    padding-bottom: $bottom!important;
+    padding-left: $left!important;
+}

@@ -1,0 +1,139 @@
+// Definition of Fonts, assignment of fonts to elements
+
+/*
+font-family: 'Corporate S Bold'
+font-family: 'Corporate S Light'
+font-family: 'Corporate S Regular'
+font-family: 'Corporate S Medium'
+*/
+
+@font-face {
+    font-family: 'CorporateS-Light';
+    src: url('../Fonts/315F22_0_0.eot');
+    src: url('../Fonts/315F22_0_0.eot?#iefix')
+            format('embedded-opentype'),url('../Fonts/315F22_0_0.woff2')
+            format('woff2'),url('../Fonts/315F22_0_0.woff')
+            format('woff'),url('../Fonts/315F22_0_0.ttf')
+            format('truetype');
+}
+@font-face {
+    font-family: 'CorporateS-Regular';
+    src: url('../Fonts/315F22_1_0.eot');
+    src: url('../Fonts/315F22_1_0.eot?#iefix')
+            format('embedded-opentype'),url('../Fonts/315F22_1_0.woff2')
+            format('woff2'),url('../Fonts/315F22_1_0.woff')
+            format('woff'),url('../Fonts/315F22_1_0.ttf')
+            format('truetype');
+}
+@font-face {
+    font-family: 'CorporateS-Bold';
+    src: url('../Fonts/315F22_2_0.eot');
+    src: url('../Fonts/315F22_2_0.eot?#iefix')
+            format('embedded-opentype'),url('../Fonts/315F22_2_0.woff2')
+            format('woff2'),url('../Fonts/315F22_2_0.woff')
+            format('woff'),url('../Fonts/315F22_2_0.ttf')
+            format('truetype');
+}
+@font-face {
+    font-family: 'CorporateS-Medium';
+    src: url('../Fonts/315F22_3_0.eot');
+    src: url('../Fonts/315F22_3_0.eot?#iefix')
+            format('embedded-opentype'),url('../Fonts/315F22_3_0.woff2')
+            format('woff2'),url('../Fonts/315F22_3_0.woff')
+            format('woff'),url('../Fonts/315F22_3_0.ttf')
+            format('truetype');
+}
+
+.content {
+    h1 {
+        color: $font-color-header-dark;
+        font-family: $font-family-h1;
+        font-size: $font-size-h1;
+        line-height: $font-size-h1 * 0.75;
+        margin-bottom: 66px;
+
+        @media (max-width: $screen-sm-min) {
+            font-size: $font-size-h1 * 0.9;
+        }
+
+        &:before {
+            content: " ";
+            display: inline-block;
+            font-size: 1px;
+            background-color: $font-color-header-dark;
+            height: 4px;
+            width: 24px;
+            margin-right: $layout-container-padding-left - 24;
+            margin-top: 6px;
+            vertical-align: text-top;
+
+            @media (max-width: $screen-sm-min) {
+                display: none;
+            }
+        }
+    }
+
+    h2 {
+        color: $font-color-page-title;
+        font-family: $font-family-h2;
+        font-size: $font-size-h2;
+        line-height: $font-size-h2 * 1.2;
+        margin-top: 0;
+        margin-bottom: 50px;
+
+        @media (max-width: $screen-sm-min) {
+            margin-top: 20px;
+            margin-bottom: 10px;
+        }
+
+        &:before {
+            content: " ";
+            display: inline-block;
+            font-size: 1px;
+            background-color: $font-color-header;
+            height: 4px;
+            width: 24px;
+            margin-right: $layout-container-padding-left - 24;
+            margin-top: 6px;
+            vertical-align: text-top;
+
+            @media (max-width: $screen-sm-min) {
+                display: none;
+            }
+        }
+    }
+    h3 {
+        color: $font-color-header-dark;
+        font-family: $font-family-h3;
+        font-size: $font-size-h3;
+        line-height: $font-size-h3 * 1.1;
+        text-transform: uppercase;
+
+        a {
+            color: $font-color-header-dark;
+            font-family: $font-family-h3;
+            font-size: $font-size-h3;
+
+            &:hover {
+                color: $font-color-header-dark;
+                font-family: $font-family-h3;
+                font-size: $font-size-h3;
+            }
+        }
+    }
+    p,
+    ul {
+        color: $font-color;
+        font-size: $font-size;
+        line-height: $font-size * 1.23;
+        font-family: $font-family-p;
+    }
+    h4 {
+        color: $font-color;
+        font-family: $font-family-h2;
+        font-size: $font-size-h2;
+        line-height: $font-size-h2 * 1.2;
+        margin-top: 20px;
+    }
+}
+

@@ -1,0 +1,5 @@
+#Page Configuration
+<INCLUDE_TYPOSCRIPT:source="FILE:EXT:nctemplate/Configuration/TypoScript/Constants/constants.ts">
+<INCLUDE_TYPOSCRIPT:source="FILE:EXT:nctemplate/Configuration/TypoScript/Constants/page.ts">
+<INCLUDE_TYPOSCRIPT:source="FILE:EXT:nctemplate/Configuration/TypoScript/Constants/config.ts">
+

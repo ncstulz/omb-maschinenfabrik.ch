@@ -1,0 +1,8 @@
+// Placeholders that are used throughout the project
+.no-margin-left-and-right {
+    @include margin(0,0,0,0);
+}
+
+.no-padding-left-and-right {
+    @include padding(0,0,0,0);
+}

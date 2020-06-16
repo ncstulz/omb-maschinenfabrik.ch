@@ -1,0 +1,22 @@
+<f:layout name="Default" />
+
+<f:section name="Main">
+
+    <!-- Titel -->
+    <div class="site-section first-section">
+        <div class="container">
+            <div class="row mb-5">
+                {f:cObject(typoscriptObjectPath: 'lib.dynamicContent', data: '0')}
+            </div>
+        </div>
+    </div>
+
+    <!-- Linkboxen (paginated) -->
+    <div class="site-section first-section" data-aos="fade">
+        <div class="container">
+            <div class="row mb-5">
+                {f:cObject(typoscriptObjectPath: 'lib.dynamicContent', data: '1')}
+            </div>
+        </div>
+    </div>
+</f:section>

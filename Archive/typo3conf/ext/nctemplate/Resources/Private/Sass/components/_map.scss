@@ -1,0 +1,9 @@
+.map {
+    margin-left: $layout-container-padding-left;
+    border: 1px solid $font-color;
+    height: 400px;
+
+    @media (max-width: $screen-sm-min) {
+        margin-left: 0px;
+    }
+}

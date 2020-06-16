@@ -1,0 +1,106 @@
+/**
+ *  If you want to override some bootstrap variables, you have to change values here.
+ *  The list of variables are listed here bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_variables.scss
+ */
+/*
+font-family: 'Corporate S Bold'
+font-family: 'Corporate S Light'
+font-family: 'Corporate S Regular'
+font-family: 'Corporate S Medium'
+*/
+@font-face {
+  font-family: 'CorporateS-Light';
+  src: url("../Fonts/315F22_0_0.eot");
+  src: url("../Fonts/315F22_0_0.eot?#iefix") format("embedded-opentype"), url("../Fonts/315F22_0_0.woff2") format("woff2"), url("../Fonts/315F22_0_0.woff") format("woff"), url("../Fonts/315F22_0_0.ttf") format("truetype"); }
+
+@font-face {
+  font-family: 'CorporateS-Regular';
+  src: url("../Fonts/315F22_1_0.eot");
+  src: url("../Fonts/315F22_1_0.eot?#iefix") format("embedded-opentype"), url("../Fonts/315F22_1_0.woff2") format("woff2"), url("../Fonts/315F22_1_0.woff") format("woff"), url("../Fonts/315F22_1_0.ttf") format("truetype"); }
+
+@font-face {
+  font-family: 'CorporateS-Bold';
+  src: url("../Fonts/315F22_2_0.eot");
+  src: url("../Fonts/315F22_2_0.eot?#iefix") format("embedded-opentype"), url("../Fonts/315F22_2_0.woff2") format("woff2"), url("../Fonts/315F22_2_0.woff") format("woff"), url("../Fonts/315F22_2_0.ttf") format("truetype"); }
+
+@font-face {
+  font-family: 'CorporateS-Medium';
+  src: url("../Fonts/315F22_3_0.eot");
+  src: url("../Fonts/315F22_3_0.eot?#iefix") format("embedded-opentype"), url("../Fonts/315F22_3_0.woff2") format("woff2"), url("../Fonts/315F22_3_0.woff") format("woff"), url("../Fonts/315F22_3_0.ttf") format("truetype"); }
+
+.content h1 {
+  color: #575756;
+  font-family: "CorporateS-Bold";
+  font-size: 41.4px;
+  line-height: 31.05px;
+  margin-bottom: 66px; }
+  @media (max-width: 769px) {
+    .content h1 {
+      font-size: 37.26px; } }
+  .content h1:before {
+    content: " ";
+    display: inline-block;
+    font-size: 1px;
+    background-color: #575756;
+    height: 4px;
+    width: 24px;
+    margin-right: 26px;
+    margin-top: 6px;
+    vertical-align: text-top; }
+    @media (max-width: 769px) {
+      .content h1:before {
+        display: none; } }
+
+.content h2 {
+  color: #ff9738;
+  font-family: "CorporateS-Bold";
+  font-size: 25.2px;
+  line-height: 30.24px;
+  margin-top: 0;
+  margin-bottom: 50px; }
+  @media (max-width: 769px) {
+    .content h2 {
+      margin-top: 20px;
+      margin-bottom: 10px; } }
+  .content h2:before {
+    content: " ";
+    display: inline-block;
+    font-size: 1px;
+    background-color: #b2b2b1;
+    height: 4px;
+    width: 24px;
+    margin-right: 26px;
+    margin-top: 6px;
+    vertical-align: text-top; }
+    @media (max-width: 769px) {
+      .content h2:before {
+        display: none; } }
+
+.content h3 {
+  color: #575756;
+  font-family: "CorporateS-Bold";
+  font-size: 14.4px;
+  line-height: 15.84px;
+  text-transform: uppercase; }
+  .content h3 a {
+    color: #575756;
+    font-family: "CorporateS-Bold";
+    font-size: 14.4px; }
+    .content h3 a:hover {
+      color: #575756;
+      font-family: "CorporateS-Bold";
+      font-size: 14.4px; }
+
+.content p,
+.content ul {
+  color: #c6c6c5;
+  font-size: 18px;
+  line-height: 22.14px;
+  font-family: "CorporateS-Bold"; }
+
+.content h4 {
+  color: #c6c6c5;
+  font-family: "CorporateS-Bold";
+  font-size: 25.2px;
+  line-height: 30.24px;
+  margin-top: 20px; }

@@ -1,0 +1,41 @@
+.news-list-view {
+    .article {
+        margin-bottom: 90px;
+        @include clearfix;
+
+        h3 {
+            margin-top: 0;
+            padding-top: 0;
+        }
+
+        .news-img-wrap {
+            @include make-sm-column(4);
+
+            padding-left: 0;
+
+            img {
+                width: 100%;
+                height: auto;
+            }
+
+            @media (max-width: $screen-sm-min) {
+                padding: 0;
+                margin-bottom: 10px;
+            }
+        }
+    }
+}
+.news-single {
+
+    .article {
+        padding-left: $layout-container-padding-left;
+
+        @media (max-width: $screen-sm-min) {
+            padding-left: 0;
+        }
+
+        .news-img-wrap {
+            margin-bottom: $layout-content-margin-bottom;
+        }
+    }
+}

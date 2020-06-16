@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PhpIncludePathManager">
+    <include_path>
+      <path value="$PROJECT_DIR$/typo3_src/vendor/psr/http-server-middleware" />
+      <path value="$PROJECT_DIR$/typo3_src/vendor/psr/http-server-handler" />
+      <path value="$PROJECT_DIR$/typo3_src/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/typo3_src/vendor/psr/cache" />
+      <path value="$PROJECT_DIR$/typo3_src/vendor/psr/http-message" />
+      <path value="$PROJECT_DIR$/typo3_src/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/typo3_src/vendor/nikic/php-parser" />
+      <path value="$PROJECT_DIR$/typo3_src/vendor/typo3/cms-cli" />
+      <path value="$PROJECT_DIR$/typo3_src/vendor/typo3/cms-composer-installers" />
+      <path value="$PROJECT_DIR$/typo3_src/vendor/typo3/phar-stream-wrapper" />
+      <path value="$PROJECT_DIR$/typo3_src/vendor/typo3/class-alias-loader" />
+      <path value="$PROJECT_DIR$/typo3_src/vendor/symfony/console" />
+      <path value="$PROJECT_DIR$/typo3_src/vendor/symfony/mime" />
+      <path value="$PROJECT_DIR$/typo3_src/vendor/symfony/var-exporter" />
+      <path value="$PROJECT_DIR$/typo3_src/vendor/symfony/expression-language" />
+      <path value="$PROJECT_DIR$/typo3_src/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/typo3_src/vendor/symfony/polyfill-intl-icu" />
+      <path value="$PROJECT_DIR$/typo3_src/vendor/symfony/service-contracts" />
+      <path value="$PROJECT_DIR$/typo3_src/vendor/symfony/polyfill-ctype" />
+      <path value="$PROJECT_DIR$/typo3_src/vendor/symfony/cache" />
+      <path value="$PROJECT_DIR$/typo3_src/vendor/symfony/finder" />
+      <path value="$PROJECT_DIR$/typo3_src/vendor/symfony/polyfill-intl-idn" />
+      <path value="$PROJECT_DIR$/typo3_src/vendor/symfony/cache-contracts" />
+      <path value="$PROJECT_DIR$/typo3_src/vendor/symfony/yaml" />
+      <path value="$PROJECT_DIR$/typo3_src/vendor/symfony/polyfill-php73" />
+      <path value="$PROJECT_DIR$/typo3_src/vendor/symfony/polyfill-php72" />
+      <path value="$PROJECT_DIR$/typo3_src/vendor/symfony/intl" />
+      <path value="$PROJECT_DIR$/typo3_src/vendor/symfony/http-foundation" />
+      <path value="$PROJECT_DIR$/typo3_src/vendor/symfony/routing" />
+      <path value="$PROJECT_DIR$/typo3_src/vendor/doctrine/instantiator" />
+      <path value="$PROJECT_DIR$/typo3_src/vendor/doctrine/cache" />
+      <path value="$PROJECT_DIR$/typo3_src/vendor/doctrine/event-manager" />
+      <path value="$PROJECT_DIR$/typo3_src/vendor/doctrine/lexer" />
+      <path value="$PROJECT_DIR$/typo3_src/vendor/doctrine/annotations" />
+      <path value="$PROJECT_DIR$/typo3_src/vendor/doctrine/dbal" />
+      <path value="$PROJECT_DIR$/typo3_src/vendor/ralouphie/getallheaders" />
+      <path value="$PROJECT_DIR$/typo3_src/vendor/cogpowered/finediff" />
+      <path value="$PROJECT_DIR$/typo3_src/vendor/guzzlehttp/promises" />
+      <path value="$PROJECT_DIR$/typo3_src/vendor/guzzlehttp/psr7" />
+      <path value="$PROJECT_DIR$/typo3_src/vendor/guzzlehttp/guzzle" />
+      <path value="$PROJECT_DIR$/typo3_src/vendor/typo3fluid/fluid" />
+      <path value="$PROJECT_DIR$/typo3_src/vendor/composer" />
+      <path value="$PROJECT_DIR$/typo3_src/vendor/swiftmailer/swiftmailer" />
+    </include_path>
+  </component>
+  <component name="PhpProjectSharedConfiguration" php_language_level="7.2" />
+</project>

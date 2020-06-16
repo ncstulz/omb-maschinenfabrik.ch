@@ -1,0 +1,23 @@
+.tx-powermail {
+
+    .powermail_legend {
+
+        display: none;
+    }
+
+    .powermail_fieldwrap {
+
+        @extend .form-group;
+
+        .powermail_textarea,
+        .powermail_input {
+
+            @extend .form-control;
+        }
+        .powermail_submit {
+
+            @extend .btn;
+            @extend .btn-primary;
+        }
+    }
+}

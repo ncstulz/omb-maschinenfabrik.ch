@@ -1,0 +1,153 @@
+//  List View
+//  ----------------------------------
+.tx-ncprojects {
+
+    clear: both;
+
+    .more {
+        display: none;
+
+        @media (max-width: $screen-sm-min) {
+            display: block;
+        }
+    }
+
+    .tx-ncprojects-list,
+    .tx-ncprojects-show {
+        padding-left: $layout-container-padding-left;
+
+        @media (max-width: $screen-sm-min) {
+            padding-left: 0;
+        }
+    }
+
+    ul.project-filter {
+
+        margin-bottom: 62px;
+
+        > li {
+            color: $font-color-header-dark;
+            font-family: $font-family-h3;
+            font-size: $font-size-h3;
+            line-height: $font-size-h3 * 1.1;
+            text-transform: uppercase;
+            cursor: pointer;
+
+            &.active {
+                color: $brand-color-primary;
+            }
+
+            @media (max-width: $screen-sm-min) {
+                display: block;
+                margin-bottom: 6px;
+            }
+
+        }
+    }
+
+    .projects {
+
+        .project-item {
+
+            img {
+                height: 150px;
+                width: auto;
+            }
+
+            @media (max-width: $screen-sm-min) {
+                width: 100%;
+                height: auto;
+
+                .image {
+                    width: 100%;
+                    height: auto;
+
+                    img {
+                        width: 100%;
+                        height: auto;
+                    }
+                }
+            }
+
+            .caption {
+                display: none;
+                position: absolute;
+                top: 0;
+                width: 100%;
+                height: 100%;
+                background-color: rgba(0,0,0,0.5);
+                padding: 10px;
+
+                .title {
+                    color: white;
+                    font-size: $font-size-hover;
+                }
+            }
+
+            a {
+                color: white;
+                text-decoration: none;
+            }
+
+            &:hover {
+
+                .caption {
+                    display: block;
+                }
+            }
+
+
+
+        }
+    }
+}
+
+.tx-ncprojects-show {
+
+    .grid-left {
+        @include padding(0,15px,0,0);
+    }
+
+    .grid-right {
+        padding-left: $layout-container-padding-left !important;
+
+        @media (max-width: $screen-sm-min) {
+            padding-left: 0 !important;
+        }
+    }
+
+    .description {
+        margin-bottom: $layout-content-margin-bottom;
+    }
+
+    > div {
+        margin-bottom: $layout-content-margin-bottom;
+    }
+}
+
+
+//  Single View
+//  ----------------------------------
+ul.links {
+    width: 350px;
+    li {
+        margin-bottom: 5px;
+        a {
+            display: block;
+            background-color: lightgray;
+            color: gray;
+            padding: 10px;
+            font-size:$font-size-linkbox;
+            line-height: $font-size-linkbox * 1.35;
+
+            -webkit-transition: padding .2s ease-in-out;
+            -moz-transition: padding .2s ease-in-out;
+            -o-transition: padding .2s ease-in-out;
+            -ms-transition: padding .2s ease-in-out;
+
+            &:hover {
+                padding-left: 20px;
+            }
+        }
+    }
+}

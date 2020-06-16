@@ -1,0 +1,46 @@
+// Custom global variables
+$brand-color-primary: #ff9738;
+$brand-color-primary-rgb-07: rgba(255,151,56,0.7);
+$brand-color-primary-rgb-09: rgba(255,151,56,0.9);
+
+$font-color-page-title: $brand-color-primary;
+$font-color-header: #b2b2b1;
+$font-color-header-dark: #575756;
+$font-color: #c6c6c5;
+$font-color-footer-title: #3c3c3b;
+$font-color-footer-body: #878786;
+
+$font-size-footer: 12px;
+$font-size: 18px;
+$font-size-navigation: 16px;
+
+$font-size-h1: $font-size * 2.3;
+$font-size-h2: $font-size * 1.4;
+$font-size-h3: $font-size * 0.8;
+$font-size-right: $font-size * 0.8;
+$font-size-hover: $font-size * 1.2;
+$font-size-linkbox: $font-size * 0.6;
+
+$font-family-h1: "CorporateS-Bold";
+$font-family-h2: "CorporateS-Bold";
+$font-family-h3: "CorporateS-Bold";
+$font-family-p: "CorporateS-Bold";
+$font-family-bold: "Corporate S Bold";
+$font-family-light: "CorporateS-Light";
+$font-family-nav: "CorporateS-Medium";
+
+$nav-color-default: #575756;
+$nav-color-default-active: #ff9738;
+$nav-color-homepage: #ffffff;
+$nav-color-homepage-active: #575756;
+
+$footer-background-color: #d8d8d8;
+
+$image-margin: 20px;
+$zindex-slider: 990;
+
+$layout-slider-height: 450px;
+$layout-header-padding-top: 100px;
+$layout-container-padding-left: 50px;
+$layout-content-margin-top: 60px;
+$layout-content-margin-bottom: 62px;

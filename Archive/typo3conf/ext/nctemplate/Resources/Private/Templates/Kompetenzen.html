@@ -1,0 +1,17 @@
+<f:layout name="Default" />
+
+<f:section name="Main">
+
+    <!-- iconboxes -->
+    <div class="site-section first-section">
+        <div class="container">
+            <div class="row border-responsive">
+                {f:cObject(typoscriptObjectPath: 'lib.dynamicContent', data: '0')}
+                {f:cObject(typoscriptObjectPath: 'lib.dynamicContent', data: '1')}
+                {f:cObject(typoscriptObjectPath: 'lib.dynamicContent', data: '2')}
+                {f:cObject(typoscriptObjectPath: 'lib.dynamicContent', data: '3')}
+            </div>
+        </div>
+    </div>
+    {f:cObject(typoscriptObjectPath: 'lib.dynamicContent', data: '4')}
+</f:section>

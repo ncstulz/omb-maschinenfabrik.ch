@@ -1,0 +1,57 @@
+#content-section-default {
+    margin-top: 175px;
+
+    @media (max-width: $screen-sm-min) {
+        margin-top: 90px;
+    }
+
+    .page-body {
+        //padding-left: $layout-container-padding-left;
+
+        .map,
+
+        .news-list-view,
+        .tx-ncprojects,
+        .ce-media img,
+        .ce-bodytext:not(:empty) {
+            margin-bottom: $layout-content-margin-bottom;
+
+            @media (max-width: $screen-sm-min) {
+                margin-bottom: 20px;
+            }
+        }
+
+        .grid .ce-textpic {
+            margin-bottom: 0px;
+        }
+
+        .grid,
+        .tx-ncteam {
+            margin-bottom: 182px;
+
+            @media (max-width: $screen-sm-min) {
+                margin-bottom: 50px;
+            }
+        }
+        .ce-bodytext:empty {
+            display: none;
+        }
+
+    }
+
+}
+
+#c51 {
+    h2 {
+        color: transparent;
+
+        @media (max-width: $screen-sm-min) {
+            display: none;
+        }
+    }
+}
+
+
+
+
+

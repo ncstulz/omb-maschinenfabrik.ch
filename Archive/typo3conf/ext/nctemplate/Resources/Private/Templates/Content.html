@@ -1,0 +1,28 @@
+<f:layout name="Content" />
+
+<f:section name="Main">
+    <div class="site-section first-section">
+        <div class="container">
+            <div class="row">
+                <!-- left container (menu) -->
+                <div class="col-md-4 sidebar">
+                    <div class="sidebar-box">
+                        <div class="categories">
+                            {f:cObject(typoscriptObjectPath: 'lib.navigation.sub')}
+                        </div>
+                    </div>
+
+                    <div class="sidebar-box">
+                        {f:cObject(typoscriptObjectPath: 'lib.dynamicContent', data: '1')}
+                    </div>
+
+                </div>
+
+                <!-- main content-->
+                <div class="col-md-8 blog-content">
+                    {f:cObject(typoscriptObjectPath: 'lib.dynamicContent', data: '0')}
+                </div>
+            </div>
+        </div>
+    </div>
+</f:section>

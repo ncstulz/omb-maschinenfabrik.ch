@@ -1,0 +1,54 @@
+#logo {
+    position: absolute;
+    top: 0;
+    width: 100%;
+
+    @media (max-width: $screen-sm-min) {
+        display: none;
+    }
+
+    .container {
+        margin-top: 200px;
+        padding-left: $layout-container-padding-left +15;
+
+        svg {
+            z-index: 10;
+            position: relative;
+            path {
+                fill: white;
+            }
+        }
+    }
+}
+
+.logo-desktop {
+
+    @media (max-width: $screen-sm-min) {
+        display: none;
+    }
+
+    svg {
+        z-index: 10;
+        position: relative;
+        padding-top: 4px;
+
+        path {
+            fill: $brand-color-primary;
+        }
+    }
+}
+
+.homepage {
+    .logo-desktop {
+
+        svg {
+            z-index: 10;
+            position: relative;
+
+            path {
+                fill: white;
+            }
+        }
+    }
+}
+

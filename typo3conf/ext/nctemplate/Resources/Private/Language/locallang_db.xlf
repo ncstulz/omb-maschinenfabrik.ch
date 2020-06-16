@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2015-11-25T13:16:11Z" product-name="nctemplate">
+		<header/>
+		<body>
+			<trans-unit id="tx_nctemplate_domain_model_dummy">
+				<source>Dummy</source>
+			</trans-unit>
+			<trans-unit id="tx_nctemplate_domain_model_dummy.dummy">
+				<source>Dummy</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

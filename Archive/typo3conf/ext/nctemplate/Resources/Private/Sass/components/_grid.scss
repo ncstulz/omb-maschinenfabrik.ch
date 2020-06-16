@@ -1,0 +1,65 @@
+.grid {
+    @include clearfix;
+
+    .grid-left {
+        @include make-sm-column(8);
+        @extend .no-margin-left-and-right;
+        @extend .no-padding-left-and-right;
+    }
+    .grid-right {
+        @include make-sm-column(3);
+        @include make-sm-column-offset(1);
+        @extend .no-margin-left-and-right;
+        @extend .no-padding-left-and-right;
+
+        @media (max-width: $screen-sm-min) {
+            margin-top: 20px !important;
+        }
+    }
+}
+
+
+.grid-right {
+
+    h2 {
+        color: $font-color-header-dark;
+        font-family: $font-family-h3;
+        font-size: $font-size-h3;
+        line-height: $font-size-h3 * 1.1;
+        text-transform: uppercase;
+        margin-bottom: 0;
+
+        &:first-child {
+            margin-top: 0;
+        }
+
+        &:before {
+            content: "";
+            display: none;
+            font-size: 1px;
+            height: 0;
+            width: 0;
+            margin-right: 0;
+            margin-top: 0;
+            vertical-align: text-top;
+        }
+
+        a {
+            color: $font-color-header-dark;
+            font-family: $font-family-h3;
+            font-size: $font-size-h3;
+
+            &:hover {
+                color: $font-color-header-dark;
+                font-family: $font-family-h3;
+                font-size: $font-size-h3;
+            }
+        }
+    }
+    p,a,li {
+        font-size: $font-size-right;
+        line-height: $font-size-right * 1.3;
+        margin-bottom: 41px;
+    }
+
+}

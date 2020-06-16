@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="5ca75d49-1fcc-4db4-a696-5f392fd6ef60" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/typo3_src/composer.json</pharConfigPath>
+    <execution />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration">
+    <include_path>
+      <path value="$PROJECT_DIR$/typo3_src/vendor/psr/http-server-middleware" />
+      <path value="$PROJECT_DIR$/typo3_src/vendor/psr/http-server-handler" />
+      <path value="$PROJECT_DIR$/typo3_src/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/typo3_src/vendor/psr/cache" />
+      <path value="$PROJECT_DIR$/typo3_src/vendor/psr/http-message" />
+      <path value="$PROJECT_DIR$/typo3_src/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/typo3_src/vendor/nikic/php-parser" />
+      <path value="$PROJECT_DIR$/typo3_src/vendor/typo3/cms-cli" />
+      <path value="$PROJECT_DIR$/typo3_src/vendor/typo3/cms-composer-installers" />
+      <path value="$PROJECT_DIR$/typo3_src/vendor/typo3/phar-stream-wrapper" />
+      <path value="$PROJECT_DIR$/typo3_src/vendor/typo3/class-alias-loader" />
+      <path value="$PROJECT_DIR$/typo3_src/vendor/symfony/console" />
+      <path value="$PROJECT_DIR$/typo3_src/vendor/symfony/mime" />
+      <path value="$PROJECT_DIR$/typo3_src/vendor/symfony/var-exporter" />
+      <path value="$PROJECT_DIR$/typo3_src/vendor/symfony/expression-language" />
+      <path value="$PROJECT_DIR$/typo3_src/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/typo3_src/vendor/symfony/polyfill-intl-icu" />
+      <path value="$PROJECT_DIR$/typo3_src/vendor/symfony/service-contracts" />
+      <path value="$PROJECT_DIR$/typo3_src/vendor/symfony/polyfill-ctype" />
+      <path value="$PROJECT_DIR$/typo3_src/vendor/symfony/cache" />
+      <path value="$PROJECT_DIR$/typo3_src/vendor/symfony/finder" />
+      <path value="$PROJECT_DIR$/typo3_src/vendor/symfony/polyfill-intl-idn" />
+      <path value="$PROJECT_DIR$/typo3_src/vendor/symfony/cache-contracts" />
+      <path value="$PROJECT_DIR$/typo3_src/vendor/symfony/yaml" />
+      <path value="$PROJECT_DIR$/typo3_src/vendor/symfony/polyfill-php73" />
+      <path value="$PROJECT_DIR$/typo3_src/vendor/symfony/polyfill-php72" />
+      <path value="$PROJECT_DIR$/typo3_src/vendor/symfony/intl" />
+      <path value="$PROJECT_DIR$/typo3_src/vendor/symfony/http-foundation" />
+      <path value="$PROJECT_DIR$/typo3_src/vendor/symfony/routing" />
+      <path value="$PROJECT_DIR$/typo3_src/vendor/doctrine/instantiator" />
+      <path value="$PROJECT_DIR$/typo3_src/vendor/doctrine/cache" />
+      <path value="$PROJECT_DIR$/typo3_src/vendor/doctrine/event-manager" />
+      <path value="$PROJECT_DIR$/typo3_src/vendor/doctrine/lexer" />
+      <path value="$PROJECT_DIR$/typo3_src/vendor/doctrine/annotations" />
+      <path value="$PROJECT_DIR$/typo3_src/vendor/doctrine/dbal" />
+      <path value="$PROJECT_DIR$/typo3_src/vendor/ralouphie/getallheaders" />
+      <path value="$PROJECT_DIR$/typo3_src/vendor/cogpowered/finediff" />
+      <path value="$PROJECT_DIR$/typo3_src/vendor/guzzlehttp/promises" />
+      <path value="$PROJECT_DIR$/typo3_src/vendor/guzzlehttp/psr7" />
+      <path value="$PROJECT_DIR$/typo3_src/vendor/guzzlehttp/guzzle" />
+      <path value="$PROJECT_DIR$/typo3_src/vendor/typo3fluid/fluid" />
+      <path value="$PROJECT_DIR$/typo3_src/vendor/composer" />
+      <path value="$PROJECT_DIR$/typo3_src/vendor/swiftmailer/swiftmailer" />
+    </include_path>
+  </component>
+  <component name="ProjectId" id="1cQeR8rM8ogR8sZwaCFtzdOzcN0" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/typo3conf/ext/nctemplate/Resources/Private/Partials" />
+    <property name="settings.editor.selected.configurable" value="preferences.customizations" />
+    <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/typo3conf/ext/nctemplate/Resources/Private/Partials" />
+      <recent name="$PROJECT_DIR$/typo3conf/ext/nctemplate/Resources/Private/Templates" />
+      <recent name="$PROJECT_DIR$/typo3conf/ext/nctemplate/Configuration" />
+      <recent name="$PROJECT_DIR$/typo3conf/ext/nctemplate/Resources/Public/Images" />
+      <recent name="$PROJECT_DIR$/typo3conf/ext/nctemplate/Resources/Private/Layouts" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/typo3conf/ext/nctemplate/Configuration/TCA" />
+      <recent name="$PROJECT_DIR$/typo3conf/ext/nctemplate/Resources/Private/Templates" />
+      <recent name="$PROJECT_DIR$/typo3conf/ext/nctemplate/Resources/Private/Partials" />
+      <recent name="$PROJECT_DIR$/typo3conf/ext/nctemplate/Resources/Private/Layouts" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5ca75d49-1fcc-4db4-a696-5f392fd6ef60" name="Default Changelist" comment="" />
+      <created>1590465233548</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1590465233548</updated>
+      <workItem from="1590465238010" duration="19187000" />
+      <workItem from="1590545187753" duration="17351000" />
+      <workItem from="1591068660089" duration="521000" />
+      <workItem from="1591787585501" duration="216000" />
+      <workItem from="1591847574386" duration="11000" />
+      <workItem from="1592286018003" duration="4148000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="894" y="421" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1590566877310">
+      <screen x="0" y="23" width="3440" height="1367" />
+    </state>
+    <state x="894" y="421" key="#com.intellij.fileTypes.FileTypeChooser/0.23.3440.1367/-1440.23.1440.877@0.23.3440.1367" timestamp="1590566877310" />
+    <state x="1180" y="244" key="SettingsEditor" timestamp="1590465277435">
+      <screen x="0" y="23" width="3440" height="1367" />
+    </state>
+    <state x="1180" y="244" key="SettingsEditor/0.23.3440.1367/-1440.23.1440.877@0.23.3440.1367" timestamp="1590465277435" />
+    <state x="901" y="244" width="1484" height="735" key="find.popup" timestamp="1592287469525">
+      <screen x="0" y="23" width="3440" height="1367" />
+    </state>
+    <state x="901" y="244" width="1484" height="735" key="find.popup/0.23.3440.1367/-1440.23.1440.877@0.23.3440.1367" timestamp="1592287469525" />
+  </component>
+</project>

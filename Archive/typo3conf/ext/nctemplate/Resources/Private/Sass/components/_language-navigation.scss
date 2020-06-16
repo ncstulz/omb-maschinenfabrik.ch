@@ -1,0 +1,22 @@
+.language-menu {
+    @extend .pull-right;
+    margin-top: 8px;
+
+    .btn:first-child {
+        margin-left: 15px;
+    }
+
+    @media screen and (max-width: $screen-sm) {
+        display: table;
+        width: 100%;
+        table-layout: fixed;
+        border-collapse: separate;
+        clear: both;
+
+        .btn {
+            float: none;
+            display: table-cell;
+            width: 1%;
+        }
+    }
+}

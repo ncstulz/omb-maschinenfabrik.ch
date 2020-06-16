@@ -1,0 +1,35 @@
+{
+	"name": "netresearch/rte-ckeditor-image",
+	"type": "typo3-cms-extension",
+	"description": "Image support in CKEditor for the TYPO3 ecosystem",
+	"homepage": "https://www.netresearch.de",
+	"license": ["GPL-2.0-or-later"],
+	"require": {
+		"typo3/cms-core": "^9.5.0"
+	},
+	"require-dev": {
+		"namelesscoder/typo3-repository-client": "^1.2"
+	},
+	"autoload": {
+		"psr-4": {
+			"Netresearch\\RteCKEditorImage\\": "Classes/"
+		}
+	},
+	"replace": {
+		"rte_ckeditor_image": "self.version",
+		"typo3-ter/rte-ckeditor-image": "self.version"
+	},
+	"config": {
+		"vendor-dir": ".Build/vendor",
+		"bin-dir": ".Build/bin"
+	},
+	"extra": {
+		"branch-alias": {
+			"dev-master": "9.x-dev"
+		},
+		"typo3/cms": {
+			"cms-package-dir": "{$vendor-dir}/typo3/cms",
+			"web-dir": ".Build/Web"
+		}
+	}
+}

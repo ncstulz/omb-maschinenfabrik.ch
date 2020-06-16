@@ -1,0 +1,13 @@
+// overwriting bootstrap variables
+$icon-font-path: '../Fonts/';
+$brand-primary: #ff9738;
+$brand-white: #ffffff;
+
+//min-width media query so wee need one px more
+$grid-float-breakpoint: 769px !default;
+$screen-sm-min: 769px !default;
+
+//== Container sizes
+
+// Small screen / tablet
+$container-tablet: auto;

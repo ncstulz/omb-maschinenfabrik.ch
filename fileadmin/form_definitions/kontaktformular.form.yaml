@@ -1,0 +1,104 @@
+
+renderingOptions:
+  submitButtonLabel: 'Mitteilung absenden'
+identifier: kontaktformular
+label: Kontaktformular
+type: Form
+prototypeName: standard
+finishers:
+  -
+    options:
+      subject: 'Kontaktformular Website'
+      recipientAddress: roman.stulz@netcase.ch
+      recipientName: 'OMB Maschinenfabrik'
+      senderAddress: '{email}'
+      senderName: '{name}'
+      replyToAddress: ''
+      carbonCopyAddress: ''
+      blindCarbonCopyAddress: ''
+      format: html
+      attachUploads: true
+      translation:
+        language: ''
+    identifier: EmailToReceiver
+renderables:
+  -
+    renderingOptions:
+      previousButtonLabel: Zurück
+      nextButtonLabel: Weiter
+    identifier: page-1
+    label: Kontakformular
+    type: Page
+    renderables:
+      -
+        defaultValue: ''
+        identifier: name
+        label: 'Vollständiger Name'
+        type: Text
+        properties:
+          fluidAdditionalAttributes:
+            placeholder: 'Vollständiger Name'
+            required: required
+          validationErrorMessages:
+            -
+              code: 1221560910
+              message: 'Bitte geben Sie Ihren vollständigen Namen ein'
+            -
+              code: 1221560718
+              message: 'Bitte geben Sie Ihren vollständigen Namen ein'
+            -
+              code: 1347992400
+              message: 'Bitte geben Sie Ihren vollständigen Namen ein'
+            -
+              code: 1347992453
+              message: 'Bitte geben Sie Ihren vollständigen Namen ein'
+        validators:
+          -
+            identifier: NotEmpty
+      -
+        defaultValue: ''
+        identifier: email
+        label: 'E-Mail Adresse'
+        type: Text
+        properties:
+          fluidAdditionalAttributes:
+            placeholder: 'E-Mail Adresse'
+            required: required
+          validationErrorMessages:
+            -
+              code: 1221560910
+              message: 'Bitte geben Sie ihre E-Mail Adresse ein'
+            -
+              code: 1221560718
+              message: 'Bitte geben Sie ihre E-Mail Adresse ein'
+            -
+              code: 1347992400
+              message: 'Bitte geben Sie ihre E-Mail Adresse ein'
+            -
+              code: 1347992453
+              message: 'Bitte geben Sie ihre E-Mail Adresse ein'
+        validators:
+          -
+            identifier: NotEmpty
+          -
+            identifier: EmailAddress
+      -
+        defaultValue: ''
+        type: Telephone
+        identifier: telephone-1
+        label: Telefon
+        properties:
+          fluidAdditionalAttributes:
+            placeholder: Telefon
+      -
+        defaultValue: ''
+        identifier: message
+        label: Mitteilung
+        type: Textarea
+        properties:
+          fluidAdditionalAttributes:
+            placeholder: 'Ihre Nachricht...'
+            required: required
+        validators:
+          -
+            identifier: NotEmpty

@@ -1,0 +1,26 @@
+//Footer
+footer {
+    background-color: $footer-background-color;
+    color: $brand-white;
+    padding: 40px 0;
+
+    h2 {
+        &:before {
+            display: none;
+        }
+    }
+
+    a {
+        color: $brand-white;
+        &:active,
+        &:focus,
+        &:hover {
+            color: darken($brand-white, 10);
+            text-decoration: none;
+        }
+    }
+
+    .ce-media {
+        margin-top: 20px;
+    }
+}

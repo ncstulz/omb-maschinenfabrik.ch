@@ -1,0 +1,120 @@
+// Global definitions for views that are used by all components
+#header-section {
+    padding-top: $layout-header-padding-top;
+
+    @media (max-width: $screen-sm-min) {
+        padding: 0;
+        padding-top: 25px;
+        height: 90px;
+    }
+
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000000;
+
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+
+    @media (max-width: $screen-sm-min) {
+        background-color: $brand-color-primary-rgb-09;
+
+        &.homepage {
+            background-color: transparent;
+        }
+    }
+
+    .navigation-container {
+        @include make-sm-column(6);
+        @extend .no-margin-left-and-right;
+        @extend .no-padding-left-and-right;
+    }
+    .logo-desktop {
+        @extend .no-margin-left-and-right;
+        @extend .no-padding-left-and-right;
+        @extend .pull-right;
+
+        width: 313px;
+        display: none;
+
+        -webkit-transition: all 0.5s ease;
+        -moz-transition: all 0.5s ease;
+        -o-transition: all 0.5s ease;
+        transition: all 0.5s ease;
+    }
+
+    &.scrolled {
+        background-color: rgba(255,255,255,0.8);
+        z-index: 1000000;
+        padding: 20px 0;
+
+        -webkit-transition: all 0.5s ease;
+        -moz-transition: all 0.5s ease;
+        -o-transition: all 0.5s ease;
+        transition: all 0.5s ease;
+
+        .logo-desktop {
+            display: block;
+
+            @media (max-width: $screen-sm-min) {
+                display: none;
+            }
+        }
+
+        @media (max-width: $screen-sm-min) {
+            background-color: $brand-color-primary-rgb-09;
+        }
+    }
+
+    &.homepage.scrolled {
+        background-color: $brand-color-primary-rgb-09;
+    }
+}
+
+#footer-section {
+    @extend .no-margin-left-and-right;
+    @extend .no-padding-left-and-right;
+
+    padding-bottom: 20px;
+    background-color: $footer-background-color;
+    margin-top: 120px !important;
+
+    .container {
+        position: relative;
+        padding-left: $layout-container-padding-left;
+
+        > div:not(.to-top) {
+            @include make-sm-column(3);
+        }
+
+        @media (max-width: $screen-sm-min) {
+            padding: 0;
+        }
+    }
+
+    .to-top {
+        position: absolute;
+        bottom: 10px;
+        right: 0;
+
+        @media (max-width: $screen-sm-min) {
+            right: 15px;
+            bottom: 10px;
+        }
+    }
+
+    h2 {
+        color: $font-color-footer-title;
+        text-transform: uppercase;
+        font-size: $font-size-footer;
+        font-weight: bold;
+    }
+
+    p,
+    a {
+        color: $font-color-footer-body;
+        font-size: $font-size-footer;
+    }
+}
